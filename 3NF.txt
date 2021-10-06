@@ -1,0 +1,7 @@
+Ishara St. Phard
+Deondre De Freitas
+5/18/2021
+CSCI 435
+Message System Term Project 
+
+There is no transitive dependency so our table is already in 3NF.

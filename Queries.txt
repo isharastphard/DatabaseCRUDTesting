@@ -1,0 +1,18 @@
+Ishara St. Phard
+Deondre De Freitas
+5/18/2021
+CSCI 435
+Message System Term Project 
+
+*** Used to create the MsgHist table with our dummy data of 21 tuples***
+
+create table MsgHist( sent_to varchar(255), time_sent varchar(255),  message_content TEXT);
+alter table MsgHist add primary key (sent_to, time_sent);
+
+***Used to load the MsgApp.csv file into MySQL***
+
+load data local infile '/home/2021/hunter/spring/435/si5591/MsgApp.csv' into table MsgHist fields terminated by ',' optionally enclosed by '"' lines terminated by '\n' ignore 1 rows(sent_to,time_sent,message_content);
+
+***Used to create the Messages table***
+
+create table Messages AS select message_content from MsgHist;

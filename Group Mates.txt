@@ -1,0 +1,13 @@
+Ishara St. Phard
+Deondre De Freitas
+5/18/2021
+CSCI 435
+
+Message System Term Project 
+
+Problem Statement: 
+
+The system would allow an instructor to be in touch with students who are working on the same server.
+It is a messaging system participants can send messages to one or all participants.
+They can review and reply to particular messages
+The system will preserve message order.

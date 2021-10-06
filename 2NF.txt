@@ -1,0 +1,12 @@
+Ishara St. Phard
+Deondre De Freitas
+5/18/2021
+CSCI 435
+Message System Term Project 
+
+We believe there to be partial 
+dependency for the “message_content”
+Column. Message content is not 
+Entirely dependent on who sent
+that message.
+ You could, look up a keyword in a message and get multiple senders/times.

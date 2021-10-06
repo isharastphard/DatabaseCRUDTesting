@@ -1,0 +1,7 @@
+Ishara St. Phard
+Deondre De Freitas
+5/18/2021
+CSCI 435
+Message System Term Project 
+
+The table is already in 1NF. The values are atomic and there are unique names for every column value.
